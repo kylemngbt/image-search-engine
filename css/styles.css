@@ -8,3 +8,14 @@ html {
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background: #191919;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin: 100px auto 50px;
+  font-weight: 600;
+}
