@@ -28,3 +28,9 @@ async function searchImages() {
     searchResult.appendChild(imageLink);
   })
 }
+
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  page = 1;
+  searchImages();
+})
